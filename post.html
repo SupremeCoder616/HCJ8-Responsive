@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <img src="images/logo.svg">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png">
+        </div>
+    </nav>
+    <!-- ----End---- -->
+
+    <!-- ----post---- -->
+    <section id="blog-container">
+        <div class="blogs blogpost">
+            <div class="post">
+                <img src="images/b1.jpg">
+                <h3>Learn Web Development In The Way</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Laudantium quod sit, inventore placeat aut eveniet odit animi 
+                    illum quidem est! Omnis explicabo sunt ipsam deleniti alias commodi 
+                    dignissimos eaque nobis.
+                    <br><br>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Labore earum culpa repellat deserunt, nisi hic nobis facere 
+                    quasi totam minus laboriosam iste ex numquam! Ut quidem praesentium repudiandae, 
+                    consequatur, minima possimus pariatur eius, recusandae officiis ea expedita architecto 
+                    deserunt. In consequatur ut reprehenderit aut aperiam at cupiditate architecto quis quia.
+
+                    <br><br>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ad accusamus 
+                    animi quod repellendus facere? Sed, adipisci? At laborum ipsa cumque cupiditate asperiores 
+                    impedit, doloremque nihil aliquid pariatur doloribus! Enim molestiae consequuntur 
+                    aperiam obcaecati nisi at nostrum distinctio sapiente non doloribus deserunt facilis 
+                    sint beatae tenetur ut ipsa, dignissimos nesciunt iusto impedit reiciendis eligendi ullam 
+                    animi. Maxime nemo incidunt quos!
+                    <br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sequi, perspiciatis 
+                    odit in mollitia, labore asperiores dolorum officiis, id impedit reiciendis autem maxime
+                     nulla minus optio! In dolorem magni ab voluptas omnis fugit voluptatem autem minus, 
+                     nemo et quo repellendus quod neque maxime debitis quos tempore, ea reiciendis incidunt. 
+                     Rerum amet veritatis aliquid facilis, at libero eum totam minima, repudiandae cumque quos 
+                     beatae, non expedita.
+                </p>
+                <a href="blog.html">Read Next ?</a>
+            </div>
+        </div>
+    </section>
+    <!-- ----End---- -->
+
+    <!-- Footer  -->
+    <footer>
+        <!-- ----1---- -->
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputaion</li>
+            <li>Power Tools</li>
+            <li>Manage Website</li>
+            <li>Manage Service</li>
+        </div>
+        <!-- ----End---- -->
+
+        <!-- ----2---- -->
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Power Tools</li>
+            <li>Manage Service</li>
+            <li>Jobs</li>
+            <li>Manage Reputaion</li>
+        </div>
+        <!-- ----End---- -->
+
+        <!-- ----3---- -->
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Power Tools</li>
+            <li>Manage Service</li>
+            <li>Manage Website</li>
+            <li>Manage Reputaion</li>
+        </div>
+        <!-- ----End---- -->
+
+        <!-- ----4---- -->
+        <div class="footer-col">
+            <h3>Reseources</h3>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Manage Website</li>
+            <li>Manage Service</li>
+        </div>
+        <!-- ----End---- --> 
+        <div class="footer-col">
+            <h3>Newletter</h3>
+            <p>You can trust us. we only send promo offers, </p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &#169;2022 All right Reserved | this template is made by Kartik Mehra</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+    <!-- ----End---- -->
+
+
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+    
+</body>
+</html>
